@@ -2,7 +2,8 @@
 # step 1. 그래프 개념 이해하기
 ### 1. 그래프(Graph)란?  
 - 여러 노드`(node)`또는 정점`(vertex)`들이 간선`(edge)`으로 연결된 네트워크를 의미함  
-- 그래프는 노드와 간선의 집합으로 정의됨  
+- 그래프는 정점과 간선의 집합으로 정의됨  
+- 간선에는 방향과 가중치가 있을 수 있음
 - <b><i>``G =(V,E)``</i></b>
 
 ![그래프 이미지](https://runestone.academy/runestone/books/published/pythonds/_images/digraph.png)
