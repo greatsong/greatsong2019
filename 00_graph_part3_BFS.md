@@ -40,7 +40,7 @@ n = int(input('그래프 정점의 갯수를 입력하세요 : '))
 g = createGraph(n)
 print('그래프가 생성되었습니다.\n', g)
 start = int(input('시작하려는 정점을 입력하세요 : '))
-print(g, start))
+print(BFS(g, start))
 ```
 
 ### 7. 코드를 수정해서 PR을 보내주세요!
