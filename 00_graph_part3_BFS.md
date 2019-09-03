@@ -3,8 +3,8 @@
 ![그래프 이미지](http://cfile223.uf.daum.net/image/2610974C539D5C81021EB7)  
 
 ### 2. 대표적인 그래프 순회 방법
-1. 너비 우선 탐색(BFS, Breadth-First Search)
-2. 깊이 우선 탐색(DFS, Depth-First Search)  
+1. 깊이 우선 탐색(DFS, Depth-First Search)  
+2. 너비 우선 탐색(BFS, Breadth-First Search)
 ![그래프 이미지](https://t1.daumcdn.net/cfile/tistory/997C3C3E5BD01AF41D)  
 
 ### 3. 너비 우선 탐색이란?
