@@ -14,7 +14,7 @@
 4. v와 인접한 정점 n 중 방문하지 않은 정점을 만나면 n에서 dfs 탐색 시작(2번으로)
 5. 순회가 종료되면 방문한 리스트 리턴
 
-### 5. 깊이 우선 탐색 코드
+### 4. 깊이 우선 탐색 코드
 ```python
 
 def dfs(graph, v):
@@ -26,7 +26,7 @@ def dfs(graph, v):
         return visited # visited 리스트 리턴
 ```
 
-### 6. 깊이 우선 탐색 실행 코드
+### 5. 깊이 우선 탐색 실행 코드
 ```python
 visited = [] # 방문한 정점 경로 저장할 리스트
 start = 1 # 시작 정점
@@ -35,4 +35,4 @@ print(graph, start) # 입력 값 확인
 print(dfs(graph, start)) # dfs 순회 결과 출력
 ```
 
-### 7. 코드를 수정해서 PR을 보내주세요!
+### 6. 코드를 수정해서 PR을 보내주세요!
