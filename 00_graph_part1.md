@@ -1,4 +1,5 @@
 [[온라인 교재 - 7장 Graph](https://runestone.academy/runestone/books/published/pythonds/Graphs/Objectives.html)]  
+[[참고자료(위키) - 그래프 이론](https://ko.wikipedia.org/wiki/그래프_이론)]  
 # step 1. 그래프 개념 이해하기
 ### 1. 그래프(Graph)란?  
 - 여러 노드`(node)`또는 정점`(vertex)`들이 간선`(edge)`으로 연결된 네트워크를 의미함  
