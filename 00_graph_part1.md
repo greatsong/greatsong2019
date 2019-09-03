@@ -1,5 +1,5 @@
 [[온라인 교재 - 7장 Graph](https://runestone.academy/runestone/books/published/pythonds/Graphs/Objectives.html)]  
-
+# step 1. 그래프 개념 이해하기
 ### 1. 그래프(Graph)란?  
 - 여러 노드`(node)`또는 정점`(vertex)`들이 간선`(edge)`으로 연결된 네트워크를 의미함  
 - 그래프는 노드와 간선의 집합으로 정의됨  
@@ -9,7 +9,7 @@
 > Q1. 우리 주변에 그래프로 모델링할 수 있는 것들에는 어떤 것이 있을까?
 
 ### 2. 그래프의 종류
-- 유향``(directed)`` 그래프 vs 무향``(undirected)`` 그래프
+- 방향``(directed)`` 그래프 vs 무방향``(undirected)`` 그래프
 - 가중치``(weighted)`` 그래프 vs 무가중치``(unweighted)`` 그래프
 
 > [[관련 링크 : 위키 - 그래프](https://ko.wikipedia.org/wiki/그래프)]  
