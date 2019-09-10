@@ -1,7 +1,7 @@
 # step 4. 깊이 우선 탐색(DFS, Depth-First Search)  
 ### 1. 대표적인 그래프 순회 방법
 1. 깊이 우선 탐색(DFS, Depth-First Search)  
-2. 너비 우선 탐색(BFS, Breadth-First Search)
+2. 너비 우선 탐색(BFS, Breadth-First Search)  
 ![그래프 이미지](https://t1.daumcdn.net/cfile/tistory/997C3C3E5BD01AF41D)  
 
 ### 2. 깊이 우선 탐색이란?
