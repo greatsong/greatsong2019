@@ -50,6 +50,10 @@ for i in range(h) :
     visited.append(temp)
 print(visited)
 
+#3. 알고리즘 : bfs 함수 만들기
+# 여기에 코드를 작성해주세요!
+bfs(m)
+
 # 4. 출력 코드
 for i in range(h):
     for j in range(w) :
