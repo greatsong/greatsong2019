@@ -71,6 +71,7 @@ def bfs(m) :
                     visited[di][dj] = 'G'
                     visited[Sy][Sx] = 'S'
                     return visited[v[0]][v[1]] + 1
+    return -1
                 
 print(bfs(m))
 
