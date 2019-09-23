@@ -40,7 +40,6 @@ for i in range(h) :
     print(''.join(m[i]))
     
 #2. 알고리즘 : visited 맵 만들기
-
 #visited = [[0] * w for j in range(h)]
 visited =[]
 for i in range(h) :
@@ -50,9 +49,30 @@ for i in range(h) :
     visited.append(temp)
 print(visited)
 
-#3. 알고리즘 : bfs 함수 만들기
-# 여기에 코드를 작성해주세요!
-bfs(m)
+#3. 준비 작업
+def check(i,j) :
+    return 0 <= i < h and 0 <= j < w
+dx = [0,0,1,-1]
+dy = [1,-1,0,0]
+
+#4. 알고리즘 : bfs 함수 만들기
+def bfs(m) :
+    queue = [(Sy,Sx)]
+    while queue :
+        v = queue.pop()
+        for k in range(4) :
+            di = v[0] + dx[k]
+            dj = v[1] + dy[k]
+            if check(di,dj) and m[di][dj] in '.G'\
+            and visited[di][dj] == 0 :
+                queue.insert(0, (di,dj))
+                visited[di][dj] = visited[v[0]][v[1]] + 1
+                if m[di][dj] == 'G' :
+                    visited[di][dj] = 'G'
+                    visited[Sy][Sx] = 'S'
+                    return visited[v[0]][v[1]] + 1
+                
+print(bfs(m))
 
 # 4. 출력 코드
 for i in range(h):
